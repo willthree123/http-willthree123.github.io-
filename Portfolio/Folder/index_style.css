@@ -14,7 +14,7 @@ body{
 }
 
 .Index_bd {
-  background-image: url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/Folder/1x/Index_bg.jpg");
+  background-image: url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/1x/Index_bg.jpg");
   height: 100%; 
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,10 +162,10 @@ h2 {
   height: 250px;
 }
 .IC1P{
-  background: transparent url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/Folder/1x/ByPW.svg");
+  background: transparent url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/1x/ByPW.svg");
 }
 .IC2P{
-  background: transparent url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/Folder/1x/BySW.svg");
+  background: transparent url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/1x/BySW.svg");
 }
 
 .Index_Contact{
@@ -180,13 +180,13 @@ h2 {
 }
 
 .ICC1P{
-  background: transparent url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/Folder/1x/instagram.png");
+  background: transparent url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/1x/instagram.png");
 }
 .ICC2P{
-  background: transparent url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/Folder/1x/youtube.png");
+  background: transparent url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/1x/youtube.png");
 }
 .ICC3P{
-  background: transparent url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/Folder/1x/facebook.png");
+  background: transparent url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/1x/facebook.png");
 }
 .ICCP{
   display: inline-block;

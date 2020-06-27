@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+@import url(https://fonts.googleapis.com/css?family=Muli);
+/* Import the google web fonts you want to use */
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.Index_bd {
+  background-image: url("Index_bg.jpg");
+  height: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  position: relative 
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 600;
+  font-family: Muli;
+  color: aliceblue;
+  margin: 0;
+
+  /*position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)*/
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: lighter;
+  font-family: Muli;
+  color: azure;
+
+  /*position: absolute;
+  top: 57%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)*/
+}
+
+.Index_div{
+  display: flex;
+  height: 100%;
+  padding: 15px;
+  /*background-color: red;*/
+  flex-direction: column;
+  justify-content:center;
+}
+
+.Index_divI{
+  /*background-color: blue;*/
+  margin: 5px;
+  display: flex;
+
+  color: white;
+  font-size: 2rem;
+}
+
+.ISP1{
+  flex: 1.2;
+}
+.ISP2{
+  flex: 1;
+}
+
+.IT1{
+  flex: 0;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+.IT2{
+  flex: 0;
+  justify-content: center;
+  align-items: flex-top;
+}
+.IBT{
+  flex:0;
+  justify-content: center;
+  align-items: flex-top;
+  text-align:center;
+}
+.IBTimg {
+  opacity: 0.5;
+}
+.IBTimg:hover {
+  opacity: 1;
+}
+

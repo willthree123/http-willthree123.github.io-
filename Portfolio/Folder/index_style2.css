@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+@import url(https://fonts.googleapis.com/css?family=Muli);
+/* Import the google web fonts you want to use */
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  overflow: hidden;
+}
+
+body{
+  height: 100%;
+}
+
+.Index_bd {
+  background-image: url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/1x/Index_bg.jpg");
+  height: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  position: relative ;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 3.6em;
+  font-weight: 600;
+  font-family: Muli;
+  color: aliceblue;
+  margin: 0;
+
+  /*position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)*/
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: lighter;
+  font-family: Muli;
+  color: azure;
+
+  /*position: absolute;
+  top: 57%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)*/
+}
+
+
+.Index_div{
+  display: flex;
+  height: 100%;
+  padding: 15px;
+  /*background-color: red;*/
+  flex-direction: column;
+  justify-content:center;
+}
+
+.Index_divI{
+  /*background-color: blue;*/
+  margin: 5px;
+  display: flex;
+
+  color: white;
+  font-size: 2rem;
+}
+
+.ISP1{
+  flex: 1.2;
+}
+.ISP2{
+  flex: 1;
+}
+
+.IT1{
+  flex: 0;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+.IT2{
+  flex: 0;
+  justify-content: center;
+  align-items: flex-start;
+}
+.IBT{
+  flex:0;
+  justify-content: center;
+  align-items: flex-start;
+  text-align:center;
+}
+
+.Index_Choose{
+  flex: 0;
+  display: flex;
+  height: 100%;
+  padding: 15px;
+  /*background-color: lightblue;*/
+  flex-direction: row;
+  justify-content:center;
+}
+
+.Index_Choice{
+  /*background-color: pink;*/
+  margin: 5px;
+  display: flex;
+  color: white;
+  font-size: 2rem;
+  align-items: center;
+  height: 100%;
+}
+
+.IC1{
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.IC2{
+  flex: 1;  
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ISP3{
+  flex: 0.1;
+}
+.ISP4{
+  flex: 0.1;
+}
+
+.Index_CP{
+  display: flex;
+  height: 100%;
+  padding: 15px;
+  /*background-color: lightcoral;*/
+  flex-direction: column;
+  justify-content:center;
+
+}
+
+.ICPC{
+  /*background-color: lightgreen;*/
+  margin: 5px;
+  display: flex;
+  color: white;
+  font-size: 2rem;
+  align-items: center;
+}
+
+.Index_CCT{
+  flex: 0.2;
+  justify-content: center;
+  align-items: flex-end;
+}
+.ICP{
+  display: inline-block;
+  width: 176px;
+  height: 250px;
+}
+.IC1P{
+  background: transparent url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/1x/ByPW.svg");
+}
+.IC2P{
+  background: transparent url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/1x/BySW.svg");
+}
+
+.Index_Contact{
+  flex-direction: row;
+  justify-content: center;
+}
+.Ihover{
+  opacity: 0.5;
+}
+.Ihover:hover{
+  opacity: 1;
+}
+
+.ICC1P{
+  background: transparent url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/1x/instagram.png");
+}
+.ICC2P{
+  background: transparent url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/1x/youtube.png");
+}
+.ICC3P{
+  background: transparent url("https://raw.githubusercontent.com/willthree123/http-willthree123.github.io-/master/Portfolio/1x/facebook.png");
+}
+.ICCP{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+}
+.Index_CI{
+  /*background-color: pink;*/
+  margin: 40px;
+  display: flex;
+  color: white;
+  align-items: flex-start;
+  font-size: 2rem;
+  justify-content: center;
+}

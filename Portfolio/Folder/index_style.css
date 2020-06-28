@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Muli);
 /* Import the google web fonts you want to use */
 
+
 html {
   scroll-behavior: smooth;
   height: 100%;
@@ -49,6 +50,20 @@ h2 {
   margin-right: -50%;
   transform: translate(-50%, -50%)*/
 }
+
+h3 {
+  font-size: 3.0em;
+  font-weight: 600;
+  font-family: Muli;
+  color: azure;
+
+  /*position: absolute;
+  top: 57%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)*/
+}
+
 
 
 .Index_div{
@@ -202,4 +217,83 @@ h2 {
   align-items: flex-start;
   font-size: 2rem;
   justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+  html {
+      font-size: 17px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px)  {
+  html {
+      font-size: 15px;
+  }
+  .IBTBP{
+    background-size: 36%;
+    background: center center cover no-repeat fixed;
+    width: 36%;
+    height: 36%;
+      }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+      font-size: 13.5px;
+  }
+  .IBTBP{
+    background-size: 30%;
+    background: center center cover no-repeat fixed;
+    width: 30%;
+    height: 30%;
+      }
+}
+
+@media (min-width: 624px) and (max-width: 767px)  {
+  html {
+      font-size: 12px;
+  }
+  .IBTBP{
+    background-size: 25%;
+    background: center center cover no-repeat fixed;
+    width: 25%;
+    height: 25%;
+      }
+}
+
+@media (max-width: 623px) {
+  html {
+      font-size: 10px;
+  }
+  .IC1P{
+    background-size:141px 200px;
+    background-repeat: no-repeat;
+
+  }
+  .IC2P{
+    background-size: 141px 200px;
+    background-repeat: no-repeat;
+
+  }
+  .IBTBP{
+background-size: 28%;
+background: center center cover no-repeat fixed;
+width: 28%;
+height: 28%;
+  }
+  .ICP{
+    width: 141px;
+    height: 200px;
+  }
+  .ISP3{
+    flex: 0.2;
+  }
 }

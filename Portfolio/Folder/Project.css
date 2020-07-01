@@ -103,7 +103,14 @@ h2 {
   flex-direction: row;
   justify-content:center;
 }
-
+.IBP_div{
+  display: flex;
+  height: 100%;
+  padding: 15px;
+  background-color: red;
+  flex-direction: column;
+  justify-content:center;
+}
 .Index_Choice{
   /*background-color: pink;*/
   margin: 5px;

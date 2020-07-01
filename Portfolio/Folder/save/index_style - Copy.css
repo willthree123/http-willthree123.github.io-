@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 @import url(https://fonts.googleapis.com/css?family=Audiowide);
 @import url(https://fonts.googleapis.com/css?family=Muli);
-@import url('https://fonts.googleapis.com/css?family=Muli:300,400,500i,600,700,800,900,900i');
 /* Import the google web fonts you want to use */
 
 
@@ -27,7 +26,7 @@ body{
 
 h1 {
   font-size: 3.6em;
-  font-weight: 670;
+  font-weight: 600;
   font-family: Muli;
   color: aliceblue;
   margin: 0;
@@ -54,19 +53,7 @@ h2 {
 
 h3 {
   font-size: 3.0em;
-  font-weight: 700;
-  font-family: Muli;
-  color: azure;
-
-  /*position: absolute;
-  top: 57%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)*/
-}
-h4 {
-  font-size: 1.2em;
-  font-weight: 300;
+  font-weight: 600;
   font-family: Muli;
   color: azure;
 
@@ -247,7 +234,8 @@ h4 {
   flex-direction: column;
   justify-content:center;
   align-items: center;
-  flex: 0; 
+  flex: 0;
+  background-color: rgb(31, 31, 31);
 }
 .Index_Logo_Picture{
   /*background-color: bisque;*/
@@ -256,70 +244,6 @@ h4 {
   background-size:330px 124px;
   background-repeat: no-repeat;
   background: transparent url("../Folder/1x/logo.svg");
-  
-}
-
-
-
-
-
-.IBP_div{
-  display: flex;
-  height: 100%;
-  padding: 5px;
-  /*background-color: lightslategrey;*/
-  flex-direction: column;
-  justify-content:center;
-}
-.IBP_whole{
-  flex: 0;
-  display: flex;
-  height: 100%;
-  padding: 5px;
-  /*background-color: lightblue;*/
-  flex-direction: row;
-  justify-content:center;
-}
-
-.IBP_Choice{
-  /*background-color: pink;*/
-  margin: 5px;
-  display: flex;
-  color: white;
-  font-size: 2rem;
-  align-items: center;
-  height: 100%;
-}
-.ICPC{
-  /*background-color: lightgreen;*/
-  margin: 5px;
-  display: flex;
-  color: white;
-  font-size: 2rem;
-  align-items: center;
-}
-
-.ICP1, .ICP2, .ICP3{
-  width: 20%;
-  flex-direction: column;
-  align-items: center;
-}
-.ISP7{
-  flex: 0.05;
-}
-.IBP{
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-}
-.IB1P{
-  background: transparent url("../Folder/1x/Person.svg");
-}
-.IB2P{
-  background: transparent url("../Folder/1x/Award.svg");
-}
-.IB3P{
-  background: transparent url("../Folder/1x/Book.svg");
 }
 
 
@@ -329,11 +253,6 @@ h4 {
 @media (min-width: 1200px) {
   html {
       font-size: 17px;
-  }
-  .ICP1, .ICP2, .ICP3{
-    width: 25%;
-    flex-direction: column;
-    align-items: center;
   }
 }
 
@@ -354,14 +273,6 @@ h4 {
         background-size:250px 94px;
         background-repeat: no-repeat;
       }
-      h4{
-        font-size: 30px;
-      }
-      .ICP1, .ICP2, .ICP3{
-        width: 20%;
-        flex-direction: column;
-        align-items: center;
-      }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -379,14 +290,6 @@ h4 {
         height: 75px;
         background-size:200px 75px;
         background-repeat: no-repeat;
-      }
-      h4{
-        font-size: 1.2em;
-      }
-      .ICP1, .ICP2, .ICP3{
-        width: 27%;
-        flex-direction: column;
-        align-items: center;
       }
 }
 
@@ -406,15 +309,6 @@ h4 {
     width: 25%;
     height: 25%;
       }
-      .ICP1, .ICP2, .ICP3{
-        width: 35%;
-        flex-direction: column;
-        align-items: center;
-      }
-      h4{
-        font-size: 1.2em;
-      }
-      
 }
 
 @media (max-width: 623px) {
@@ -442,53 +336,18 @@ height: 28%;
   .ISP3{
     flex: 0.2;
   }
-  h4{
-    font-size: 1em;
-  }
-  .IBP_Choice{
-    margin: 0px;
-  }
-  .ICP1, .ICP2, .ICP3{
-    width: 35%;
-    flex-direction: column;
-    align-items: center;
-  }
-  .IBP{
-    width: 80px;
-    height: 80px;
-    background-size:80px 80px;
-    background-repeat: no-repeat;
-  }
 }
-
-
-
-
 .Index_whole{
   height: 100%;
-  transform: translate(0, 5%);
-  transition: all 5s;  
-  opacity: 0;
+  transform: translate(0, 0);
+  transition: all 5s;
 }
-
-.IBP_whole{
-  height: 100%;
-  transform: translate(0, 0%);
-  transition: all 5s;  
-  opacity: 0;
-}
-.Index_whole.visible, .IBP_whole.visible {
+.Index_whole.visible {
   opacity: 1;
-}
-.Index_whole.visible{
   transform: translate(0, 32%);
 }
- .IBP_whole.visible {
-  opacity: 1;
-  transform: translate(0, 21%);
-}
 
-.IBTANT{
+.IBTANTJS.show , .IBTANT{
   animation: fadeInBT ease 6s;
   -webkit-animation: fadeInBT ease 6s;
   -moz-animation: fadeInBT ease 6s;
@@ -522,7 +381,7 @@ height: 28%;
 @-ms-keyframes fadeInBT {
   0% {opacity:0;}
   40%{opacity:0;}
-  100% {opacity:0.5;}
+  100% {opacity:1;}
 }
 .fade-in {
   animation: fadeIn ease 4s;
@@ -555,4 +414,3 @@ height: 28%;
   0% {opacity:0;}
   100% {opacity:1;}
 }
-

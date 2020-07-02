@@ -8,7 +8,7 @@
 html {
   scroll-behavior: smooth;
   height: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 body{
@@ -323,7 +323,22 @@ h4 {
 }
 
 
-
+.Intro_div{
+  display: flex;
+  height: 100%;
+  padding: 5px;
+  background-color: lightslategrey;
+  flex-direction: column;
+  justify-content:center;
+}
+.Intro_bigdiv{
+  display: flex;
+  height: 100%;
+  padding: 5px;
+  background-color: gray;
+  flex-direction: column;
+  justify-content:center;
+}
 
 
 @media (min-width: 1200px) {
@@ -470,11 +485,16 @@ height: 28%;
   transition: all 5s;  
   opacity: 0;
 }
-
+.Intro_whole{
+  height: 100%;
+  /*transform: translate(0, 5%);
+  transition: all 5s;  
+  opacity: 0;*/
+}
 .IBP_whole{
   height: 100%;
-  transform: translate(0, 0%);
-  transition: all 5s;  
+  transform: translate(0, -10%);
+  transition: all 4s;  
   opacity: 0;
 }
 .Index_whole.visible, .IBP_whole.visible {
@@ -485,8 +505,9 @@ height: 28%;
 }
  .IBP_whole.visible {
   opacity: 1;
-  transform: translate(0, 21%);
+  transform: translate(0, 10%);
 }
+
 
 .IBTANT{
   animation: fadeInBT ease 6s;

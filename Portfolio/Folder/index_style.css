@@ -342,11 +342,11 @@ h4 {
 .Intro_bigdiv{
   margin: 5px;
   display: flex;
-  height: 90%;
+  height: 80%;
   padding: 5px;
   /*background-color: rgb(105, 39, 39);*/
   flex-direction: row;
-  justify-content:center;
+  justify-content:flex-end;
   align-self: center;
 }
 
@@ -385,19 +385,15 @@ h4 {
   flex-direction: column;
   justify-content:center;
 }
-.Intro_photo{
-  /*background-color: bisque;*/
-  background: transparent url("../Folder/1x/vack.png");
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 380px;
-  width: 600px;
-}
 .Intro_TP{
   align-items: flex-end;
+}
+.IT_BT{
+  display: flex;
+/*background-color: pink;*/
+align-items: flex-start;
+justify-content:center;
+height: 20%;
 }
 
 
@@ -474,10 +470,7 @@ h4 {
         flex-direction: column;
         align-items: center;
       }
-      .Intro_photo{
-        height: 300px;
-        width: 474px;
-      }
+
 }
 
 @media (min-width: 624px) and (max-width: 767px)  {
@@ -504,16 +497,20 @@ h4 {
       h4{
         font-size: 1.2em;
       }
-      .Intro_photo{
-        height: 260px;
-        width: 411px;
-      }
+
       .Intro_bigdiv{
         flex-direction: column;
     
       }
       .Intro_TP{
     align-items: center;
+      }
+      .Intro_divitem{
+        align-items: center;
+      }
+      .IT_title, .IT_TT, .IT_text{
+        /*background-color: goldenrod;*/
+        margin: 3px;
       }
       
 }
@@ -560,16 +557,22 @@ height: 28%;
     background-size:80px 80px;
     background-repeat: no-repeat;
   }
-  .Intro_photo{
-    height: 260px;
-    width: 411px;
-  }
+
   .Intro_bigdiv{
     flex-direction: column;
 
   }
   .Intro_TP{
-align-items: flex-end;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  .Intro_divitem{
+    align-items: center;
+  }
+  .IT_title, .IT_TT, .IT_text{
+    /*background-color: goldenrod;*/
+    margin: 3px;
   }
 }
 

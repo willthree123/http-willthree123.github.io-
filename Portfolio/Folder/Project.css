@@ -1,19 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 @import url(https://fonts.googleapis.com/css?family=Audiowide);
 @import url(https://fonts.googleapis.com/css?family=Muli);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,500i,600,700,800,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500i,600,700,800,900,900i');
 /* Import the google web fonts you want to use */
+
 
 html {
   scroll-behavior: smooth;
   height: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 body{
   height: 100%;
 }
 
-.Index_bd {
+.bd {
   background-image: url("../Folder/1x/Index_bg.jpg");
   height: 100%; 
   background-repeat: no-repeat;
@@ -25,16 +29,10 @@ body{
 
 h1 {
   font-size: 3.6em;
-  font-weight: 600;
+  font-weight: 670;
   font-family: Muli;
   color: aliceblue;
   margin: 0;
-
-  /*position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)*/
 }
 
 h2 {
@@ -42,143 +40,21 @@ h2 {
   font-weight: lighter;
   font-family: Muli;
   color: azure;
-
-  /*position: absolute;
-  top: 57%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)*/
 }
 
-
-.Index_div{
-  display: flex;
-  height: 100%;
-  padding: 15px;
-  /*background-color: red;*/
-  flex-direction: column;
-  justify-content:center;
+h3 {
+  font-size: 3.0em;
+  font-weight: 700;
+  font-family: Muli;
+  color: azure;
+}
+h4 {
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: Muli;
+  color: azure;
 }
 
-.Index_divI{
-  /*background-color: blue;*/
-  margin: 5px;
-  display: flex;
-
-  color: white;
-  font-size: 2rem;
-}
-
-.ISP1{
-  flex: 1.2;
-}
-.ISP2{
-  flex: 1;
-}
-
-.IT1{
-  flex: 0;
-  justify-content: center;
-  align-items: flex-end;
-
-}
-.IT2{
-  flex: 0;
-  justify-content: center;
-  align-items: flex-start;
-}
-.IBT{
-  flex:0;
-  justify-content: center;
-  align-items: flex-start;
-  text-align:center;
-}
-
-.Index_Choose{
-  flex: 0;
-  display: flex;
-  height: 100%;
-  padding: 15px;
-  /*background-color: lightblue;*/
-  flex-direction: row;
-  justify-content:center;
-}
-.IBP_div{
-  display: flex;
-  height: 100%;
-  padding: 15px;
-  background-color: red;
-  flex-direction: column;
-  justify-content:center;
-}
-.Index_Choice{
-  /*background-color: pink;*/
-  margin: 5px;
-  display: flex;
-  color: white;
-  font-size: 2rem;
-  align-items: center;
-  height: 100%;
-}
-
-.IC1{
-  flex: 1;
-  flex-direction: column;
-  align-items: flex-end;
-}
-.IC2{
-  flex: 1;  
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.ISP3{
-  flex: 0.1;
-}
-.ISP4{
-  flex: 0.1;
-}
-
-.Index_CP{
-  display: flex;
-  height: 100%;
-  padding: 15px;
-  /*background-color: lightcoral;*/
-  flex-direction: column;
-  justify-content:center;
-  background-color: rgb(31, 31, 31);
-}
-
-.ICPC{
-  /*background-color: lightgreen;*/
-  margin: 5px;
-  display: flex;
-  color: white;
-  font-size: 2rem;
-  align-items: center;
-}
-
-.Index_CCT{
-  flex: 0.2;
-  justify-content: center;
-  align-items: flex-end;
-}
-.ICP{
-  display: inline-block;
-  width: 176px;
-  height: 250px;
-}
-.IC1P{
-  background: transparent url("../Folder/1x/ByPW.svg");
-}
-.IC2P{
-  background: transparent url("../Folder/1x/BySW.svg");
-}
-
-.Index_Contact{
-  flex-direction: row;
-  justify-content: center;
-}
 .Ihover{
   opacity: 0.5;
 }
@@ -186,27 +62,190 @@ h2 {
   opacity: 1;
 }
 
-.ICC1P{
-  background: transparent url("../Folder/1x/instagram.png");
+.project_whole{
+  margin: 5%;
 }
-.ICC2P{
-  background: transparent url("../Folder/1x/youtube.png");
+
+
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 80%;
+  height: 100px;
+  text-align: center;
+  /*margin: 0.5%;*/
+  display: none;
+  justify-self: center;
+  align-self: center;
 }
-.ICC3P{
-  background: transparent url("../Folder/1x/facebook.png");
+
+.show {
+  display: block;
 }
-.ICCP{
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
-}
-.Index_CI{
-  /*background-color: pink;*/
-  margin: 40px;
-  display: flex;
-  color: white;
-  align-items: flex-start;
-  font-size: 2rem;
+
+.container {
+  float: left;
+  margin-top: 20px;
+  overflow: hidden;
+  align-items: center;
   justify-content: center;
+  width: 100%;
+  background-color: green;
+}
+.I_small{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+  html {
+      font-size: 17px;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px)  {
+  html {
+      font-size: 15px;
+  }
+      h4{
+        font-size: 30px;
+      }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+      font-size: 13.5px;
+  }
+      h4{
+        font-size: 1.2em;
+      }
+}
+
+@media (min-width: 624px) and (max-width: 767px)  {
+  html {
+      font-size: 12px;
+  }
+      h4{
+        font-size: 1.2em;
+      }      
+}
+
+@media (max-width: 623px) {
+  html {
+      font-size: 10px;
+  }
+  h4{
+    font-size: 1em;
+  }
+}
+
+
+.IBTANT{
+  animation: fadeInBT ease 6s;
+  -webkit-animation: fadeInBT ease 6s;
+  -moz-animation: fadeInBT ease 6s;
+  -o-animation: fadeInBT ease 6s;
+  -ms-animation: fadeInBT ease 6s;
+}
+@keyframes fadeInBT {
+  0% {opacity:0;}
+  40%{opacity:0;}
+  100% {opacity:0.5;}
+}
+
+@-moz-keyframes fadeInBT {
+  0% {opacity:0;}
+  40%{opacity:0;}
+  100% {opacity:0.5;}
+}
+
+@-webkit-keyframes fadeInBT {
+  0% {opacity:0;}
+  40%{opacity:0;}
+  100% {opacity:0.5;}
+}
+
+@-o-keyframes fadeInBT {
+  0% {opacity:0;}
+  40%{opacity:0;}
+  100% {opacity:0.5;}
+}
+
+@-ms-keyframes fadeInBT {
+  0% {opacity:0;}
+  40%{opacity:0;}
+  100% {opacity:0.5;}
+}
+.fade-in {
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }

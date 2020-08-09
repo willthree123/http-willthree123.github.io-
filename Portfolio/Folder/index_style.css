@@ -10,7 +10,7 @@
 html {
   scroll-behavior: smooth;
   height: 100%;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 body{
@@ -370,7 +370,15 @@ h4 {
 .IT_text{
   width: 65%;
 }
+.Flexd{
+  display: flex;
+  flex-direction: row;
 
+height: 50%;
+
+justify-content:center;
+align-items: flex-start;
+}
 .Intro_divitem{
   /*background-color: pink;*/
   margin: 5px;

@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Price Calculator</title>
+  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="Index_bd">
+  <div class="whole">
+    <H1>HKCC GPA</H1>
+    <br><br><br>
+
+    <div class="Row">
+      <h2>Weight (g):</h2>
+      <div class="Space"></div>
+      <input type="number" id="weight" placeholder="Type Here">
+
+    </div>
+    <div class="Row">
+      <h2>Filament Legth (m):</h2>
+      <div class="Space"></div>
+      <input type="number" id="legth" placeholder="Type Here">
+      
+    </div>
+    
+    <div class="Row">
+      <h2>Printing Time (h):</h2>
+      <div class="Space"></div>
+      <input type="number" id="hour" placeholder="Type Here" class="i50">
+      
+
+    
+
+    </div>
+    <div class="Row"><h2>(min):</h2>      <input type="number" id="min" placeholder="Type Here" class="i50"></div>
+  <button onclick="myFunction()">Calculate</button>
+    <div class="Row">
+      <h2 class="p">Price: </h2>
+      <div class="Space"></div>
+      <h2 class=Price id="price">$___</h2>
+    </div>
+    <br><br>
+    <br><br>
+<a href="https://www.willfreeshop.nl/Home"><button class="web">Back To Website  →</button></a>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

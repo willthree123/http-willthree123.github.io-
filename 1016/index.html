@@ -23,7 +23,7 @@
 
 </head>
 
-<body bgcolor="#1E3448" onload="play()">
+<body bgcolor="#1E3448">
 
     <!--
             Background Music
@@ -124,20 +124,6 @@
             </table>
         </div>
     </div>
-
-    <!--set background music to 50%-->
-    <script>
-        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-        var vid = document.getElementById("iframAudio");
-        vid.volume = 0.5;
-        var vid1 = document.getElementById("playAudio");
-        vid1.volume = 0.5;
-        if (!isChrome) {
-            $('#iframeAudio').remove()
-        } else {
-            $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
-        }
-    </script>
 
 </body>
 

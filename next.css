@@ -80,8 +80,8 @@ body {
         margin-bottom: 0vh;
     }
     .nextbutton {
-        height: 50px;
-        width: 50px;
+        height: 4vh;
+        width: 4vh;
         transform: translate(-50%, -50%) rotate(90deg);
         left: 50%;
         bottom: 2vh;
@@ -98,7 +98,7 @@ body {
         transform: translate(-50%, -50%) rotate(90deg);
         left: 50%;
         bottom: 2vh;
-        height: 40px;
-        width: 40px;
+        height: 4vh;
+        width: 4vh;
     }
 }

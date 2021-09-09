@@ -1,0 +1,193 @@
+:root {
+    --mcolor: #669fa8;
+    --scolor: #eee;
+}
+
+body {
+    background: var(--mcolor);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+.absoulute {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    transform-origin: center center;
+}
+
+.fcard {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50vh;
+    left: 50vw;
+    width: 50vw;
+    animation: ffloat 2.5s ease-in-out infinite;
+}
+
+.card,
+.cardbutton {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50vh;
+    left: 50vw;
+    background-color: #3B8E9B;
+    animation: ffloat 2.5s ease-in-out infinite;
+    z-index: -2;
+    width: 50vw;
+    height: calc(50vw/889*501);
+    box-shadow: 0px 30px 50px 20px rgba(30, 78, 85, 0.5);
+}
+
+.cardbutton {
+    box-shadow: none;
+    opacity: 0;
+    z-index: 999;
+}
+
+.pulse {
+    position: absolute;
+    height: 20vw;
+    width: 20vw;
+    opacity: 1;
+    z-index: -1;
+    top: 50vh;
+    left: 50vw;
+    border-radius: 50%;
+    transform-origin: center center;
+    transform: translate(-50%, -50%);
+}
+
+.pulse:before,
+.pulse:after {
+    opacity: 0;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #49b1c1;
+    z-index: -1;
+    border-radius: 50%;
+    transform-origin: center center;
+    transform: translate(-50%, -50%);
+}
+
+.pulse:before {
+    animation: pulse 3s 2s ease-out infinite;
+}
+
+.pulse:after {
+    animation: pulse 3s 8s ease-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    5% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+    90% {
+        transform: scale(4.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(5);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(7px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes ffloat {
+    0% {
+        transform: translate(-50%, -50%) translateY(0);
+    }
+    50% {
+        transform: translate(-50%, -50%) translateY(7px);
+    }
+    100% {
+        transform: translate(-50%, -50%) translateY(0);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .nextbutton {
+        height: 65px;
+        width: 65px;
+        right: 2vw;
+    }
+    .pulse {
+        position: absolute;
+        height: 10vw;
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+    .fcard,
+    .bcard {
+        width: 70vw;
+        height: 100%;
+        margin-bottom: 0vh;
+    }
+    .card,
+    .cardbutton {
+        width: 70vw;
+        height: calc(70vw/889*501);
+    }
+    .nextbutton {
+        height: 50px;
+        width: 50px;
+        right: 2vw;
+    }
+    .pulse {
+        position: absolute;
+        height: 15vw;
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .fcard,
+    .bcard {
+        width: 90vw;
+        height: auto;
+        margin-bottom: 2vh;
+    }
+    .card,
+    .cardbutton {
+        width: 90vw;
+        height: calc(90vw/889*501);
+    }
+    .nextbutton {
+        transform: translate(-50%, -50%) rotate(90deg);
+        left: 50%;
+        height: 40px;
+        width: 40px;
+        bottom: 2vh;
+    }
+    .pulse {
+        position: absolute;
+        height: 15vw;
+        width: 15vw;
+    }
+}

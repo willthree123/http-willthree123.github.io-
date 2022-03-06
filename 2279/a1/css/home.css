@@ -52,7 +52,7 @@
 
 .news-title {
     position: relative;
-    font-size: 50px;
+    font-size: 80px;
     margin: 0px;
     line-height: 45px;
     margin: 0px 0px 20px 40px;
@@ -62,7 +62,7 @@
 }
 
 .news-block {
-    font-size: 0.8em;
+    font-size: 1.2em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -101,7 +101,7 @@
     color: var(--card-content-color);
     /* Inside auto layout */
     align-self: stretch;
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 .news-title-date {
@@ -126,6 +126,73 @@
     color: #A0A0A0;
     margin: 0px;
     /* margin-left: 20px; */
+}
+
+@media only screen and (min-width: 1440px) {
+    .news-title-date h3 {
+        width: max(75px, 15%);
+    }
+    .photo {
+        background-size: cover;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (max-width: 1440px) {
+    .spacer {
+        height: 0vh;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 721px and up) */
+
+@media only screen and (max-width: 1200px) {
+    .home-content {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    .news-section {
+        width: 90%;
+    }
+    .news-title-date h2 {
+        width: 80%;
+        margin-right: 5px;
+    }
+    .news-title-date h3 {
+        text-align: right;
+    }
+    .news-block div {
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .photo-section {
+        flex: 1;
+        margin-top: 7vh;
+        width: 100%;
+    }
+    .photo {
+        position: relative;
+        margin: 0px;
+        margin-left: 55px;
+        margin-bottom: 70px;
+        width: 80%;
+        background-repeat: space;
+        background-position: center center;
+        /* background-size: auto 80vh; */
+        background-size: cover;
+    }
+    .spacer {
+        height: 0vh;
+    }
+    .news-section {
+        margin: 20px 0px;
+        margin-left: -40px;
+    }
 }
 
 
@@ -173,32 +240,5 @@
     .news-section {
         margin: 20px 0px;
         margin-left: -40px;
-    }
-}
-
-
-/* Large devices (laptops/desktops, 721px and up) */
-
-@media only screen and (min-width: 721px) {
-    .spacer {
-        height: 40vh;
-    }
-}
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-
-@media only screen and (min-width: 1200px) {
-    .spacer {
-        height: 0vh;
-    }
-}
-
-@media only screen and (min-width: 1440px) {
-    .news-title-date h3 {
-        width: max(75px, 15%);
-    }
-    .photo {
-        background-size: cover;
     }
 }

@@ -1,0 +1,506 @@
+:root {
+    --main-bg-color: #24272C;
+    --nav-btn-color: #AFAFB0;
+    --title-font-color: #F3F3F3;
+    --card-content-color: #D0D0D0;
+    --card-bg-color: #24272C;
+    --icon-color: #D0D0D0;
+    --footer-bg-color: #0F232E;
+    --footer-font-color: #8F8F8F;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transition: 1s;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: #F3F3F3;
+    font-family: Open Sans;
+    margin: 0;
+}
+
+a,
+a:visited {
+    color: var(--nav-btn-color);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: var(--title-font-color);
+    transform: scale(1.05);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    /* padding: 50px 30px 0px 70px; */
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: max(12vh, 100px);
+    background-color: #0F232E70;
+    box-shadow: inset 0px 1px 3px rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(40px);
+}
+
+.nav-logo-text {
+    /* beaty salon */
+    position: static;
+    width: 150px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    font-family: Roboto Slab, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22.4903px;
+    line-height: 30px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.07em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nav-logo-vector {
+    position: static;
+    left: 19.33%;
+    right: 19.33%;
+    top: 65.62%;
+    bottom: 0%;
+}
+
+.nav-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    left: 87px;
+    top: 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.nav-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: static;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.nav-btn-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px min(46px, 4vw);
+}
+
+.nav-btn-text p {
+    align-self: center;
+    position: static;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    /* identical to box height, or 120% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nav-btn-book {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6px 15px 6px 17px;
+    position: static;
+    left: 301px;
+    top: 0px;
+    border: 10px solid;
+    border-radius: 31px;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(180deg, #2FB8FF 0%, #9EECD9 100%);
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px min(46px, 4vw);
+}
+
+.nav-btn-book p {
+    align-self: center;
+    position: static;
+    height: 35px;
+    left: 17px;
+    top: 6px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height, or 142% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.541212px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    background: linear-gradient(180deg, #2FB8FF 0%, #9EECD9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-btn-book {
+    opacity: 0.75;
+    transition: 0.5s;
+}
+
+.nav-btn-book:hover,
+.footer-arrow:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.covid-link {
+    width: 100%;
+}
+
+.CovidBanner {
+    display: flex;
+    padding: 0px 0px;
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    height: max(4vh, 50px);
+    width: 100%;
+    background: linear-gradient(228.38deg, #E1467C 25.56%, rgba(255, 119, 217, 0.62) 109.09%);
+    box-shadow: 0px 11px 13px rgba(0, 0, 0, 0.25);
+}
+
+.CovidBanner p {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    width: 100%;
+    height: 100%;
+    color: var(--title-font-color);
+    line-height: 1.5em;
+}
+
+.navbar-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 99;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: var(--main-bg-color);
+}
+
+.footer-bg {
+    position: absolute;
+    width: 100%;
+    height: max(60vh, 400px);
+    bottom: 0px;
+    background: #0F232E;
+}
+
+.footer-arrow {
+    position: absolute;
+    z-index: 3;
+    height: 10vh;
+    width: 10vh;
+    top: 5vh;
+    left: 50vw;
+    transform: translate(-50%);
+    opacity: 0.75;
+    transition: 0.5s;
+}
+
+.footer-arrow:hover {
+    color: var(--title-font-color);
+    transform: scale(1.05) translate(-50%);
+}
+
+.footer-top-arrow {
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
+
+.footer-top-circle {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 50px rgba(225, 244, 255, 0.4);
+    border-radius: 218.5px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+    height: 10vh;
+    left: 50%;
+    /* transform: translate(-50%); */
+    justify-content: center;
+    top: 20vh;
+    z-index: 5;
+    text-align: center;
+    margin-bottom: 9vh;
+}
+
+.footer-logo-vector {
+    position: static;
+    width: 80%;
+}
+
+.footer-logo-text {
+    position: static;
+    width: 242px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36.2096px;
+    line-height: 48px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.07em;
+    text-align: center;
+}
+
+.footer-logo-text h1 {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    bottom: 0;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.footer-nav-btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-nav-btn p,
+.footer-nav-btn a div p {
+    color: var(--card-content-color);
+    font-weight: Bold;
+    font-size: 1.8em;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    padding: 0 20px;
+    transition: 0.65s;
+}
+
+.footer-nav-btn a:hover {
+    transform: scale(1.065);
+    color: white;
+}
+
+.footer-grey-text p {
+    color: var(--footer-font-color);
+    line-height: 0.5em;
+}
+
+.footer-grey-text {
+    margin-bottom: 30px;
+}
+
+.toggle-button {
+    position: absolute;
+    /* top: .75rem; */
+    right: 2.5rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 30px;
+    top: 40%;
+    /* transform: translate(100%, 0%); */
+}
+
+.toggle-button .bar {
+    height: 4px;
+    width: 100%;
+    background-color: white;
+    border-radius: 1.5px;
+}
+
+.raised {
+    padding: 34px;
+    background: var(--card-bg-color);
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.05), 18px 18px 36px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+}
+
+.sunken {
+    padding: 34px;
+    background: var(--card-bg-color);
+    box-shadow: inset -18px -18px 36px rgba(255, 255, 255, 0.05), inset 18px 18px 36px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+}
+
+.spacer {
+    height: 0vh;
+}
+
+.top-spacer {
+    height: 25vh;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 720px) {
+    .footer-logo-vector {
+        width: 30vw;
+    }
+    .CovidBanner p {
+        font-size: 1.2em;
+        padding: 0px;
+        padding-top: 10px;
+    }
+    .footer-nav-btn p,
+    .footer-nav-btn p {
+        font-size: 1em;
+        padding: 0 8px;
+    }
+    .footer-grey-text p {
+        color: var(--footer-font-color);
+        line-height: 1.2em;
+    }
+    .footer-grey-text {
+        padding: 0px 20px;
+        margin-bottom: 30px;
+    }
+    .nav-btn-book,
+    .nav-btn-text p {
+        margin: 15px 0px;
+        color: var(--title-font-color);
+        opacity: 1;
+    }
+    .nav-btn-book p,
+    .nav-btn-text p {
+        font-size: 1.6em;
+        letter-spacing: 6px;
+        padding: 12px 0px;
+    }
+    .nav-btn-book p {
+        font-weight: bold;
+    }
+    .nav-btns a div {
+        width: 80vw;
+        /* background: #2FB8FF; */
+    }
+    .navbar {
+        padding: 0px 0px;
+        flex-direction: column;
+        z-index: 100;
+    }
+    .toggle-button {
+        display: flex;
+    }
+    .nav-btns {
+        flex-direction: column;
+        padding: 0;
+        display: none;
+    }
+    .nav-btns.active {
+        display: flex;
+        align-self: center;
+        background-color: #304352;
+        width: 100%;
+    }
+    .nav-logo {
+        margin-bottom: 2vh;
+    }
+    .footer-nav-btn a p {
+        font-size: 100%;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 721px and up) */
+
+@media only screen and (min-width: 721px) {
+    .footer-nav-btn a p {
+        font-size: 170%;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}

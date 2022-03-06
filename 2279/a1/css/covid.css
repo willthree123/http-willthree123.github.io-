@@ -1,0 +1,188 @@
+.covid-content {
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px 10% 30px 10%;
+}
+
+.covid-content h1 {
+    font-size: 2.3em;
+    text-align: left;
+    font-weight: 900;
+    margin: 0px;
+    width: 100%;
+    margin: 0px 0px 20px 30px;
+}
+
+.title-content div {
+    padding: 20px 40px;
+    border-radius: 40px;
+}
+
+.title-content p {
+    width: 100%;
+    font-weight: 500;
+}
+
+.title-content {
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: max(min-content, 100%);
+    width: 15vw;
+    margin: 0px 30px 0px 30px;
+}
+
+.card div h2 {
+    width: 100%;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+}
+
+.card div p {
+    width: 100%;
+    font-size: 1em;
+    font-weight: 00;
+    margin: 0px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.card-vector {
+    width: 258px;
+    height: 258px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0.5s;
+}
+
+.vector1 {
+    background-image: url(../assets/mask.svg);
+}
+
+.vector2 {
+    background-image: url(../assets/s.svg);
+}
+
+.vector3 {
+    background-image: url(../assets/phone.svg);
+}
+
+.content-card {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 720px) {
+    .covid-content {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    .bot {
+        height: 0px;
+    }
+    .services-row-3 {
+        flex-direction: column;
+    }
+    .content-card {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        width: 60vw;
+        margin: 30px 0px 30px 0px;
+    }
+    .title-content {
+        width: 80%;
+        margin-bottom: 100px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 721px and up) */
+
+@media only screen and (min-width: 721px) {
+    .spacer {
+        height: 0vh;
+    }
+    .bot {
+        height: 0px;
+    }
+    .services-row-3 {
+        flex-direction: column;
+    }
+    .content-card {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        width: 60vw;
+        margin: 30px 0px 30px 0px;
+    }
+    .title-content {
+        width: 80%;
+        margin-bottom: 100px;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .spacer {
+        height: 0vh;
+    }
+    .services-row-3 {
+        /* display: flex; */
+        flex-direction: row;
+        /* width: 100%;
+        align-content: space-between;
+        justify-content: space-between; */
+    }
+    .title-content {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .news-title-date h3 {
+        width: max(75px, 15%);
+    }
+    .photo {
+        background-size: cover;
+    }
+    .bot {
+        height: 0px;
+    }
+    .services-row-3 {
+        flex-direction: row;
+    }
+    .content-card {
+        flex-direction: row;
+    }
+    .card {
+        width: 15vw;
+        margin: 0px 30px 0px 30px;
+    }
+    .title-content {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+}

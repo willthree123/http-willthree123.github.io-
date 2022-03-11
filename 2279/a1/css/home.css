@@ -101,7 +101,7 @@
     color: var(--card-content-color);
     /* Inside auto layout */
     align-self: stretch;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .news-title-date {
@@ -135,6 +135,9 @@
     .photo {
         background-size: cover;
     }
+    .spacer {
+        height: 30vh;
+    }
 }
 
 
@@ -142,7 +145,7 @@
 
 @media only screen and (max-width: 1440px) {
     .spacer {
-        height: 0vh;
+        height: 30vh;
     }
 }
 

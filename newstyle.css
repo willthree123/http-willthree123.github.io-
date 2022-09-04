@@ -161,7 +161,7 @@ h1 {
     width: 100%;
     background-color: aliceblue;
     border-radius: 50vh;
-    padding: 25px 40px;
+    padding: 25px 0px;
     padding-bottom: 30px;
     box-shadow: 0px 0px 5px 5px rgba(30, 78, 85, 0.3);
     box-sizing: border-box;
@@ -225,19 +225,128 @@ No media query for `xs` since this is the default in Bootstrap
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .card {
+        width: 75vw;
+        height: calc(75vw/889*501);
+    }
+    .linkSection {
+        margin: 0px;
+        margin-top: 100px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .links {
+        font-size: 33px;
+        margin-top: 40px;
+        gap: 30px;
+    }
+    .links a {
+        padding: 20px 0px;
+        padding-bottom: 25px;
+    }
+    .flipped {
+        /* transform: rotateX(180deg) translate(50%, 50%); */
+        transform: rotateY(180deg) translate(-50%, -130%);
+    }
+}
 
 
 /* Large devices (desktops, 992px and up) */
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .card {
+        width: 65vw;
+        height: calc(65vw/889*501);
+    }
+    .linkSection {
+        margin: 0px;
+        margin-top: 100px;
+    }
+    h1 {
+        font-size: 43px;
+    }
+    .links {
+        font-size: 28px;
+        margin-top: 40px;
+        gap: 20px;
+    }
+    .links a {
+        padding: 15px 0px;
+        padding-bottom: 20px;
+    }
+    .flipped {
+        /* transform: rotateX(180deg) translate(50%, 50%); */
+        transform: rotateY(180deg) translate(-50%, -60%);
+    }
+    body {
+        overflow-y: scroll;
+    }
+}
 
 
 /* X-Large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .card {
+        width: 50vw;
+        height: calc(50vw/889*501);
+    }
+    .linkSection {
+        margin: 0px;
+        margin-top: 100px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .links {
+        font-size: 25px;
+        margin-top: 40px;
+        gap: 20px;
+    }
+    .links a {
+        padding: 15px 0px;
+        padding-bottom: 20px;
+    }
+    .flipped {
+        /* transform: rotateX(180deg) translate(50%, 50%); */
+        transform: rotateY(180deg) translate(-50%, -50%);
+    }
+    body {
+        overflow-y: scroll;
+    }
+}
 
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+    .card {
+        width: 50vw;
+        height: calc(50vw/889*501);
+    }
+    .linkSection {
+        margin: 0px;
+        margin-top: 100px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .links {
+        font-size: 25px;
+        margin-top: 40px;
+        gap: 20px;
+    }
+    .links a {
+        padding: 15px 0px;
+        padding-bottom: 20px;
+    }
+    .flipped {
+        /* transform: rotateX(180deg) translate(50%, 50%); */
+        transform: rotateY(180deg) translate(-50%, -50%);
+    }
+    body {
+        overflow-y: scroll;
+    }
+}

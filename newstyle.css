@@ -44,9 +44,11 @@ body {
 }
 
 .front {
+    /* background-color: transparent; */
     background-color: #3b8e9b;
     margin: 0;
     padding: 0;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     /* background: ; */
     width: 100%;
@@ -64,8 +66,8 @@ body {
 .back {
     margin: 0;
     padding: 0;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background: white;
     width: 100%;
     height: 100%;
     position: relative;

@@ -18,7 +18,7 @@ body {
 }
 
 .card {
-    background-color: #3b8e9b;
+    background-color: transparent;
     /* width: 50vw;
     height: calc(50vw/889*501); */
     margin: 0;
@@ -44,6 +44,7 @@ body {
 }
 
 .front {
+    background-color: #3b8e9b;
     margin: 0;
     padding: 0;
     backface-visibility: hidden;

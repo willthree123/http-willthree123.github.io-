@@ -39,7 +39,7 @@ body {
 
 .flipped {
     /* transform: rotateX(180deg) translate(50%, 50%); */
-    transform: rotateY(180deg) translate(-50%, -150%);
+    transform: rotateY(180deg) translate(-50%, -110%);
 }
 
 .front {
@@ -248,7 +248,7 @@ No media query for `xs` since this is the default in Bootstrap
     }
     .flipped {
         /* transform: rotateX(180deg) translate(50%, 50%); */
-        transform: rotateY(180deg) translate(-50%, -130%);
+        transform: rotateY(180deg) translate(-50%, -95%);
     }
 }
 

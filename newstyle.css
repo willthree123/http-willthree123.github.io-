@@ -1,0 +1,243 @@
+body {
+    background-color: #669fa8;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    font-family: Futura;
+    color: white
+}
+
+.VH-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    -ms-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+}
+
+.card {
+    background-color: #3b8e9b;
+    /* width: 50vw;
+    height: calc(50vw/889*501); */
+    margin: 0;
+    padding: 0;
+    width: 90vw;
+    height: calc(90vw/889*501);
+    box-shadow: 0px 30px 50px 20px rgba(30, 78, 85, 0.5);
+    /* animation: float 2.5s ease-in-out infinite; */
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.container {
+    position: absolute;
+    animation: float 2.5s ease-in-out infinite;
+    height: 100%;
+    width: 100%;
+}
+
+.flipped {
+    /* transform: rotateX(180deg) translate(50%, 50%); */
+    transform: rotateY(180deg) translate(-50%, -150%);
+}
+
+.front {
+    margin: 0;
+    padding: 0;
+    backface-visibility: hidden;
+    /* background: ; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+}
+
+.front img {
+    margin: auto;
+    transform: translate(0, -5%);
+    width: 35%;
+}
+
+.back {
+    margin: 0;
+    padding: 0;
+    backface-visibility: hidden;
+    background: white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: rotateY(180deg);
+    /* opacity: 0; */
+}
+
+.backimg {
+    height: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+    padding-bottom: 50px;
+}
+
+.btn {
+    height: 120px;
+    opacity: 0.8;
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+.btn:hover {
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+.pulseContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    pointer-events: none;
+}
+
+.pulseDiv {
+    margin: auto;
+    position: relative;
+    height: 15vw;
+    width: 15vw;
+    opacity: 0;
+    background-color: rgba(131, 231, 223, 0.85);
+    border-radius: 50vh;
+}
+
+.pulseDiv {
+    animation: pulse 3s 2s ease-out infinite;
+}
+
+.unone,
+.unone:after,
+.unone:before {
+    display: none;
+}
+
+.linkSection {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 45px;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.links a {
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 50vh;
+    padding: 25px 40px;
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 5px 5px rgba(30, 78, 85, 0.3);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+    color: #2a646d;
+}
+
+.link {}
+
+@font-face {
+    font-family: Futura;
+    src: url('./Futura.woff') format("WOFF");
+    font-weight: Normal;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    5% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+    90% {
+        transform: scale(5.3);
+        opacity: 0;
+    }
+}
+
+@keyframes float {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: 6.5px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+
+/* 
+X-Small devices (portrait phones, less than 576px) 
+No media query for `xs` since this is the default in Bootstrap  
+*/
+
+
+/* Small devices (landscape phones, 576px and up)  */
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}

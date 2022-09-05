@@ -343,6 +343,9 @@ No media query for `xs` since this is the default in Bootstrap
         padding: 15px 0px;
         padding-bottom: 20px;
     }
+    .code {
+        width: 300px;
+    }
 }
 
 
@@ -370,6 +373,9 @@ No media query for `xs` since this is the default in Bootstrap
         padding: 15px 0px;
         padding-bottom: 20px;
     }
+    .code {
+        width: 300px;
+    }
 }
 
 
@@ -396,6 +402,9 @@ No media query for `xs` since this is the default in Bootstrap
     .links a {
         padding: 15px 0px;
         padding-bottom: 20px;
+    }
+    .code {
+        width: 300px;
     }
 }
 

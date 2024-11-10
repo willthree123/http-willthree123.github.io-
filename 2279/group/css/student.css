@@ -1,0 +1,700 @@
+.Ufull-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100%; */
+    width: 100%;
+    object-fit: cover;
+    padding: 0;
+    /* background-position: 0px -160px; */
+}
+
+.sbg-4 {
+    background-image: url("../assets/Ufull-bg/Student_04.jpg");
+}
+
+.sbg-6 {
+    background-image: url("../assets/Ufull-bg/Student_06.jpg");
+}
+
+.sbg-8 {
+    background-image: url("../assets/Ufull-bg/Student_08.jpg");
+}
+
+.sbg-10 {
+    background-image: url("../assets/Ufull-bg/Student_10.jpg");
+}
+
+.sbg-11 {
+    background-image: url("../assets/Ufull-bg/Student_12.jpg");
+}
+
+.sbg-17 {
+    background-image: url("../assets/Ufull-bg/Student_17.jpg");
+}
+
+.tbg-15,
+.tbg-16,
+.tbg-3,
+.sbg-3,
+.sbg-9,
+.sbg-7,
+.tbg-10,
+.tbg-22,
+.obg-9,
+.obg-18,
+.obg-19,
+.obg-21,
+.obg-24,
+.tbg-17,
+.tbg-20,
+.tbg-21,
+.obg-14,
+.obg-15,
+.obg-16,
+.obg-17,
+.obg-15,
+.obg-23 {
+    object-fit: none;
+    background-size: auto;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.tbg-15 {
+    background-image: url("../assets/Ufull-bg/Teacher_15.png");
+}
+
+.tbg-16 {
+    background-image: url("../assets/Ufull-bg/Teacher_16.png");
+}
+
+.tbg-20 {
+    background-image: url("../assets/Ufull-bg/Teacher_20.png");
+}
+
+.tbg-21 {
+    background-image: url("../assets/Ufull-bg/Teacher_21.png");
+}
+
+.tbg-24 {
+    background-image: url("../assets/Ufull-bg/Teacher_24.jpg");
+}
+
+.tbg-23 {
+    background-image: url("../assets/Ufull-bg/Teacher_23.jpg");
+}
+
+.tbg-4 {
+    background-image: url("../assets/Ufull-bg/Teacher_04.jpg");
+}
+
+.tbg-5 {
+    background-image: url("../assets/Ufull-bg/Teacher_05.jpg");
+}
+
+.tbg-6 {
+    background-image: url("../assets/Ufull-bg/Teacher_06.jpg");
+}
+
+.tbg-3 {
+    background-image: url("../assets/Ufull-bg/Teacher_03.png");
+}
+
+.sbg-3 {
+    background-image: url("../assets/Ufull-bg/Student_03.png");
+}
+
+.sbg-9 {
+    background-image: url("../assets/Ufull-bg/Student_09.png");
+}
+
+.sbg-7 {
+    background-image: url("../assets/Ufull-bg/Student_07.png");
+}
+
+.sbg-13 {
+    background-image: url("../assets/Ufull-bg/Student_13.jpg");
+}
+
+.sbg-14 {
+    background-image: url("../assets/Ufull-bg/Student_14.jpg");
+}
+
+.sbg-15 {
+    background-image: url("../assets/Ufull-bg/Student_15.jpg");
+}
+
+.sbg-16 {
+    background-image: url("../assets/Ufull-bg/Student_16.jpg");
+}
+
+.tbg-10 {
+    background-image: url("../assets/Ufull-bg/Teacher_10.png");
+}
+
+.tbg-22 {
+    background-image: url("../assets/Ufull-bg/Teacher_22.png");
+}
+
+.tbg-17 {
+    background-image: url("../assets/Ufull-bg/Teacher_17.png");
+}
+
+.tbg-7 {
+    background-image: url("../assets/Ufull-bg/Teacher_07.jpg");
+}
+
+.tbg-8 {
+    background-image: url("../assets/Ufull-bg/Teacher_08.jpg");
+}
+
+.tbg-11 {
+    background-image: url("../assets/Ufull-bg/Teacher_11.jpg");
+}
+
+.tbg-9 {
+    background-image: url("../assets/Ufull-bg/Teacher_09.jpg");
+}
+
+.tbg-5 {
+    background-image: url("../assets/Ufull-bg/Teacher_05.jpg");
+}
+
+.tbg-19 {
+    background-image: url("../assets/Ufull-bg/Teacher_19.jpg");
+}
+
+.tbg-12 {
+    background-image: url("../assets/Ufull-bg/Teacher_12.jpg");
+}
+
+.tbg-1 {
+    background-image: url("../assets/Ufull-bg/Teacher_01.jpg");
+}
+
+.tbg-2 {
+    background-image: url("../assets/Ufull-bg/Teacher_02.jpg");
+}
+
+.obg-12 {
+    background-image: url("../assets/Ufull-bg/Office_12.jpg");
+}
+
+.obg-13 {
+    background-image: url("../assets/Ufull-bg/Office_13.jpg");
+}
+
+.obg-1 {
+    background-image: url("../assets/Ufull-bg/Office_01.jpg");
+}
+
+.obg-2 {
+    background-image: url("../assets/Ufull-bg/Office_02.jpg");
+}
+
+.obg-3 {
+    background-image: url("../assets/Ufull-bg/Office_03.jpg");
+}
+
+.obg-4 {
+    background-image: url("../assets/Ufull-bg/Office_04.jpg");
+}
+
+.obg-6 {
+    background-image: url("../assets/Ufull-bg/Office_06.jpg");
+}
+
+.obg-25 {
+    background-image: url("../assets/Ufull-bg/Office_25.jpg");
+}
+
+.obg-26 {
+    background-image: url("../assets/Ufull-bg/Office_26.jpg");
+}
+
+.obg-7 {
+    background-image: url("../assets/Ufull-bg/Office_07.jpg");
+}
+
+.obg-8 {
+    background-image: url("../assets/Ufull-bg/Office_08.jpg");
+}
+
+.obg-9 {
+    background-image: url("../assets/Ufull-bg/Office_09.jpg");
+}
+
+.obg-10 {
+    background-image: url("../assets/Ufull-bg/Office_10.jpg");
+}
+
+.obg-11 {
+    background-image: url("../assets/Ufull-bg/Office_11.jpg");
+}
+
+.obg-14 {
+    background-image: url("../assets/Ufull-bg/Office_14.png");
+}
+
+.obg-15 {
+    background-image: url("../assets/Ufull-bg/Office_15.png");
+}
+
+.obg-17 {
+    background-image: url("../assets/Ufull-bg/Office_17.png");
+}
+
+.obg-16 {
+    background-image: url("../assets/Ufull-bg/Office_16.png");
+}
+
+.obg-21 {
+    background-image: url("../assets/Ufull-bg/Office_21.png");
+}
+
+.obg-22 {
+    background-image: url("../assets/Ufull-bg/Office_22.jpg");
+}
+
+.obg-9 {
+    background-image: url("../assets/Ufull-bg/Office_09.png");
+}
+
+.obg-18 {
+    background-image: url("../assets/Ufull-bg/Office_18.png");
+}
+
+.obg-19 {
+    background-image: url("../assets/Ufull-bg/Office_19.png");
+}
+
+.obg-23 {
+    background-image: url("../assets/Ufull-bg/Office_23.png");
+}
+
+.obg-20 {
+    background-image: url("../assets/Ufull-bg/Office_20.jpg");
+}
+
+.obg-24 {
+    background-image: url("../assets/Ufull-bg/Office_24.png");
+}
+
+.tbg-bg {
+    background-image: url("../assets/Ufull-bg/Teacher_bg.png");
+}
+
+.obg-bg {
+    background-image: url("../assets/Ufull-bg/Office_bg.jpg");
+}
+
+.sbg-bg {
+    background-image: url("../assets/bg-student.png");
+}
+
+.rel {
+    position: relative;
+}
+
+.oB,
+.oB:visited {
+    position: absolute;
+    background: #aa47ec40;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+.oB-home {
+    height: 120px;
+    width: 300px;
+    top: 60px;
+    left: 100px;
+}
+
+.oBs-mi1 {
+    height: 45px;
+    width: 270px;
+    top: 220px;
+    left: 115px;
+}
+
+.oBs-mi2 {
+    height: 45px;
+    width: 270px;
+    top: 265px;
+    left: 115px;
+}
+
+.oBs-mi3 {
+    height: 45px;
+    width: 270px;
+    top: 340px;
+    left: 115px;
+}
+
+.oBs-mi4 {
+    height: 45px;
+    width: 270px;
+    top: 385px;
+    left: 115px;
+}
+
+.oBs-rubbish {
+    height: 80px;
+    width: 80px;
+    top: 590px;
+    left: 1170px;
+}
+
+.oB-person {
+    height: 80px;
+    width: 80px;
+    top: 80px;
+    right: 105px;
+}
+
+.oBs-Yes1 {
+    height: 90px;
+    width: 200px;
+    top: 580px;
+    left: 700px;
+}
+
+.oBs-No1 {
+    height: 90px;
+    width: 200px;
+    top: 580px;
+    left: 1020px;
+}
+
+.oBs-view {
+    height: 70px;
+    width: 150px;
+    top: 410px;
+    left: 1000px;
+}
+
+.oBs-exit1 {
+    height: 50px;
+    width: 50px;
+    top: 120px;
+    right: 315px;
+}
+
+.oBt-exit1 {
+    height: 50px;
+    width: 50px;
+    top: 125px;
+    right: 320px;
+}
+
+.oBs-paynow {
+    height: 50px;
+    width: 130px;
+    top: 360px;
+    right: 250px;
+}
+
+.oBs-pays {
+    height: 130px;
+    width: 130px;
+    top: 655px;
+    left: 440px;
+}
+
+.oBs-payf {
+    height: 130px;
+    width: 900px;
+    top: 655px;
+    left: 740px;
+}
+
+.oBs-back {
+    height: 60px;
+    width: 280px;
+    top: 840px;
+    left: 110px;
+}
+
+.oBs-try {
+    height: 80px;
+    width: 180px;
+    top: 600px;
+    left: 800px;
+}
+
+.oBt-mi1 {
+    height: 43px;
+    width: 270px;
+    top: 218px;
+    left: 115px;
+}
+
+.oBt-mi2 {
+    height: 43px;
+    width: 270px;
+    top: 258px;
+    left: 115px;
+}
+
+.oBt-mi3 {
+    height: 45px;
+    width: 270px;
+    top: 300px;
+    left: 115px;
+}
+
+.oBt-mi4 {
+    height: 43px;
+    width: 270px;
+    top: 305px;
+    left: 115px;
+}
+
+.oBt-mi5 {
+    height: 43px;
+    width: 270px;
+    top: 346px;
+    left: 115px;
+}
+
+.oBt-view1 {
+    height: 65px;
+    width: 360px;
+    top: 750px;
+    left: 1280px;
+}
+
+.oB-thome {
+    height: 120px;
+    width: 450px;
+    top: 60px;
+    left: 100px;
+}
+
+.oB-ohome {
+    height: 120px;
+    width: 450px;
+    top: 60px;
+    left: 100px;
+}
+
+.oBt-att {
+    height: 50px;
+    width: 50px;
+    top: 360px;
+    left: 1260px;
+}
+
+.oBt-sub {
+    height: 60px;
+    width: 180px;
+    top: 660px;
+    left: 430px;
+}
+
+.oBt-undo {
+    height: 60px;
+    width: 150px;
+    top: 660px;
+    left: 615px;
+}
+
+.oBt-takee {
+    height: 50px;
+    width: 50px;
+    top: 480px;
+    left: 460px;
+}
+
+.oBt-vieww {
+    height: 50px;
+    width: 150px;
+    top: 480px;
+    left: 1150px;
+}
+
+.oBt-addd {
+    height: 70px;
+    width: 370px;
+    top: 120px;
+    left: 333px;
+}
+
+.oBt-adddd {
+    height: 90px;
+    width: 240px;
+    bottom: 170px;
+    right: 310px;
+}
+
+.oBt-editt {
+    height: 80px;
+    width: 80px;
+    bottom: 370px;
+    right: 440px;
+}
+
+.oBo-mi1 {
+    height: 43px;
+    width: 270px;
+    top: 212px;
+    left: 115px;
+}
+
+.oBo-mi2 {
+    height: 43px;
+    width: 270px;
+    top: 253px;
+    left: 115px;
+}
+
+.oBo-mi3 {
+    height: 45px;
+    width: 270px;
+    top: 294px;
+    left: 115px;
+}
+
+.oBo-mi4 {
+    height: 45px;
+    width: 270px;
+    top: 365px;
+    left: 115px;
+}
+
+.oBo-mi11 {
+    height: 43px;
+    width: 270px;
+    top: 195px;
+    left: 115px;
+}
+
+.oBo-mi21 {
+    height: 43px;
+    width: 270px;
+    top: 236px;
+    left: 115px;
+}
+
+.oBo-mi31 {
+    height: 45px;
+    width: 270px;
+    top: 277px;
+    left: 115px;
+}
+
+.oBo-mi41 {
+    height: 45px;
+    width: 270px;
+    top: 350px;
+    left: 115px;
+}
+
+.oBo-pay {
+    height: 60px;
+    width: 60px;
+    top: 350px;
+    left: 1325px;
+}
+
+.oBo-take {
+    height: 60px;
+    width: 60px;
+    top: 460px;
+    left: 915px;
+}
+
+.oBo-subb {
+    height: 70px;
+    width: 170px;
+    top: 660px;
+    left: 430px;
+}
+
+.oBo-undo {
+    height: 70px;
+    width: 170px;
+    top: 660px;
+    left: 610px;
+}
+
+.oBo-search {
+    height: 70px;
+    width: 320px;
+    top: 250px;
+    left: 710px;
+}
+
+.oBo-rec {
+    height: 70px;
+    width: 200px;
+    left: 420px;
+    bottom: 120px;
+}
+
+.oBo-adddd {
+    height: 70px;
+    width: 200px;
+    right: 450px;
+    top: 180px;
+}
+
+.oBo-addd2 {
+    height: 70px;
+    width: 150px;
+    left: 760px;
+    top: 120px;
+}
+
+.oBo-addd3 {
+    height: 70px;
+    width: 150px;
+    left: 920px;
+    top: 120px;
+}
+
+.oBo-addAC {
+    height: 90px;
+    width: 230px;
+    right: 320px;
+    bottom: 140px;
+}
+
+.oBo-viewStd {
+    height: 50px;
+    width: 140px;
+    right: 750px;
+    bottom: 200px;
+}
+
+.oBo-editt {
+    height: 50px;
+    width: 70px;
+    right: 550px;
+    bottom: 200px;
+}
+
+.enter-bg {
+    background-image: url("../assets/Enter.jpg");
+}
+
+.enter {
+    height: 100%;
+    width: 33.34%;
+    top: 0;
+}
+
+.enter1 {
+    left: 0;
+}
+
+.enter2 {
+    left: 33.34%;
+}
+
+.enter3 {
+    left: 66.67%;
+}
